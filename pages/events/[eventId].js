@@ -16,7 +16,7 @@ function EventDetailPage() {
   }
   return (
     <>
-      <EventSummary />
+      <EventSummary title={event.title} />
       <EventLogistics
         address={event.location}
         date={event.date}
